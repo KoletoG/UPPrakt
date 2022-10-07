@@ -1,0 +1,40 @@
+// Task 0 cout << "Hello C++";
+	/* Task 1
+	double a, b, c;
+	cin >> a >> b >> c;
+	cout << a + b + c;
+	*/
+	/* Task 2
+	double x1, y1, x2, y2;
+	cout << "Point 1: " << endl;
+	cout << "x = ";
+	cin >> x1;
+	cout << "y = ";
+	cin >> y1;
+	cout << "Point 2: " << endl;
+	cout << "x = ";
+	cin >> x2;
+	cout << "y = ";
+	cin >> y2;
+	double result = sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
+	cout << "Result: " << result;*/
+	/* Task 3 
+	double a, b;
+	cout << "Vhod: " << "\n" << "firstNumber: ";
+	cin >> a;
+	cout << "secondNumber: ";
+	cin >> b;
+	a += b;
+	b = a - b;
+	a -= b;
+	cout << "Izhod: " << "\n" << "firstNumber: " << a << "\n" << "secondNumber: " << b;;
+    */
+	/* Task 4
+	int a;
+	cin >> a;
+	int b = a % 10;
+	int c = a / 10 % 10;
+	int d = a / 100;
+	cout << d << " " << c << " " << b << endl ;
+	cout << "suma: " << b + c + d;
+	*/
