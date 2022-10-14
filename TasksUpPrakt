@@ -38,3 +38,62 @@
 	cout << d << " " << c << " " << b << endl ;
 	cout << "suma: " << b + c + d;
 	*/
+	// Lesson 2
+/* Task 1
+	int qbochki;
+	int krushki;
+	int bananki;
+	cout << "Apples: ";
+	cin >> qbochki;
+	cout << "Pears: ";
+	cin >> krushki;
+	cout << "Bananas: ";
+	cin >> bananki;
+	cout << "Traicho, don't forget to buy " << qbochki << " apples, " << krushki << " pears and " << bananki << " bananas!";
+	*/
+	/* Task 2
+	double a;
+	double b;
+	cout << "Purvo chislo: ";
+	cin >> a;
+	cout << "Vtoro chislo: ";
+	cin >> b;
+	double sum = a + b;
+	double difference = abs(a - b);
+	double multiplication = a * b;
+	cout << "Sum: " <<  sum << " Difference: " << difference << " Product: " << multiplication;
+	*/
+	/* Task 3
+	double sekundi;
+	cout << "Seconds: ";
+	cin >> sekundi;
+	double dni = floor(sekundi / (60 * 60 * 24));
+	sekundi -= dni * 60 * 60 * 24;
+	double chas = floor(sekundi / (60 * 60));
+	sekundi -= chas * 60 * 60;
+	double min = floor(sekundi / (60));
+	sekundi -= min * 60;
+	cout << dni << " days, " << chas << " hours, " << min << " minutes and " << sekundi << " seconds"  ;
+	*/
+	/* Task 4
+	cout << "Tricifreno: ";
+	int tricifreno;
+	cin >> tricifreno;
+	cout << "Ogledalno: " << tricifreno % 10<< (tricifreno / 10) % 10<< tricifreno / 100;
+	*/
+	/* Task 5
+	int strana;
+	cout << "Strana: ";
+	cin >> strana;
+	int apotema;
+	cout << "Apotema: ";
+	cin >> apotema;
+	int height;
+	cout << "Height: ";
+	cin >> height;
+	double P = strana * 4;
+	double Sstrana = strana * strana;
+	double Spiramida = (P * apotema) / 2 + Sstrana;
+	double V = (Sstrana / height) / 3;
+	cout << "S na piramida: " << Spiramida << " Obem na piramida: " << V;
+	*/
