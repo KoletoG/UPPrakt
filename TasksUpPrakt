@@ -1,3 +1,4 @@
+// 07.10.2022
 // Task 0 cout << "Hello C++";
 	/* Task 1
 	double a, b, c;
@@ -38,7 +39,7 @@
 	cout << d << " " << c << " " << b << endl ;
 	cout << "suma: " << b + c + d;
 	*/
-	// Lesson 2
+	// 14.10.2022
 /* Task 1
 	int qbochki;
 	int krushki;
@@ -97,3 +98,152 @@
 	double V = (Sstrana / height) / 3;
 	cout << "S na piramida: " << Spiramida << " Obem na piramida: " << V;
 	*/
+	//21.10.2022
+	/* Task 1
+	int a, b;
+	cin >> a;
+	cin >> b;
+	int x;
+	if (a > b)
+	{
+		x = a;
+		cout << x;
+	}
+	else if (b>a){
+		x = b;
+		cout << x;
+	}
+	else {
+		cout << a;
+	}
+	*/
+	/* Task 2
+	int a;
+	cin >> a;
+	if (a > 0 && a <= 12)
+	{
+		cout << "Yes";
+
+	}
+	else {
+		cout << "No";
+	}
+	*/
+	/* Task 3
+	int a, b, x;
+	cin >> a >> b >> x;
+	if (x >= a && x <= b)
+	{
+		cout << "In";
+	}
+	else {
+		cout << "Out";
+	}
+	*/
+	/* Task 4
+	char a;
+	cin >> a;
+	if ((a > 64 && a<=90) && (a>96 && a<=122))
+	{
+		cout << "Bukva";
+	}
+	else {
+		cout << "Ne e bukva";
+	}
+	*/
+	/* Task 5
+	double a, b;
+	cin >> a >> b;
+	if (a > 0 && b>0)
+	{
+		cout << "Both are >0";
+	}
+	else if (a > 0 && b <= 0) {
+		cout << "A >0";
+	}
+	else if (b > 0 && a <= 0)
+	{
+		cout << "B >0";
+	}
+	else {
+		cout << "Both are <0";
+	}
+	*/
+	/* Task 6
+	int a;
+	cin >> a;
+	switch (a)
+	{
+	case 1:cout << "January"; break;
+	case 2: cout << "February"; break;
+	case 3: cout << "March"; break;
+	case 4: cout << "April"; break;
+	case 5: cout << "May"; break;
+	case 6: cout << "June"; break;
+	case 7: cout << "July"; break;
+	case 8: cout << "August"; break;
+	case 9: cout << "September"; break;
+	case 10: cout << "October"; break;
+	case 11: cout << "November"; break;
+	case 12: cout << "December"; break;
+	default: cout <<"Not a valid month"; 
+	}
+	*/
+	/* Task 7
+	int n, m, k;
+	cin >> n >> m >> k;
+	if (k % 2 == 0 && k <= n * m) {
+		cout << "Yes";
+	}
+	else {
+		cout << "No";
+	}
+	*/
+/* Task 8
+double a, b, c;
+cin >> a >> b >> c;
+double x1 = (-b + sqrt((b * b) - (4 * a * c)))/(2*a);
+double x2 = (-b - sqrt((b * b) - (4 * a * c))) / (2 * a);
+cout << x1 << "\n" << x2;
+*/
+/* Task 9
+double a;
+string b, c;
+cin >> a >> b >> c;
+if (b == "EUR" && c=="BGN") {
+	a *= 1.95;
+	cout << a;
+}
+else if(b=="BGN" && c=="EUR") {
+	a *= 0.51;
+	cout << a;
+}
+else {
+	cout << a;
+}
+*/
+/* Task 10
+short a, b, c;
+cin >> a >> b >> c;
+if (a == 1)
+{
+	cout << "Drinks home";
+}
+else if (a == 0 && b == 1 && c == 1)
+{
+	cout << "Drinks home";
+}
+else if(a==0 && b==1 && c==0) {
+	cout << "Buys cold beer";
+}
+else {
+	cout << "Goes to buy rakia or beer";
+}
+*/
+/* Task 11
+int n;
+cin >> n;
+int passed_meters;
+passed_meters = n * n + n;
+cout << passed_meters;
+*/
