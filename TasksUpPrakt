@@ -247,3 +247,182 @@ int passed_meters;
 passed_meters = n * n + n;
 cout << passed_meters;
 */
+28/10/2022
+/* Task 1
+	int month;
+	int year;
+	cin >> year >> month;
+	if (year % 4 == 0)
+	{
+		switch (month)
+		{
+		case 1:cout << "31 day"; break;
+
+		case 2:cout << "29 day"; break;
+
+		case 3:cout << "31 day"; break;
+
+		case 4:cout << "30 day";break;
+		case 5:cout << "31 day"; break;
+
+		case 6:cout << "30 day"; break;
+
+		case 7:cout << "31 day"; break;
+
+		case 8:cout << "31 day"; break;
+
+		case 9:cout << "30 day"; break;
+
+		case 10:cout << "31 day"; break;
+
+		case 11:cout << "30 day"; break;
+
+		case 12:cout << "31 day"; break;
+		default: cout << "Invalid month"; break;
+		}
+	}
+	else {
+		switch (month)
+		{
+		case 1:cout << "31 day"; break;
+
+		case 2:cout << "28 day"; break;
+
+		case 3:cout << "31 day"; break;
+
+		case 4:cout << "30 day"; break;
+		case 5:cout << "31 day"; break;
+
+		case 6:cout << "30 day"; break;
+
+		case 7:cout << "31 day"; break;
+
+		case 8:cout << "31 day"; break;
+
+		case 9:cout << "30 day"; break;
+
+		case 10:cout << "31 day"; break;
+
+		case 11:cout << "30 day"; break;
+
+		case 12:cout << "31 day"; break;
+		default: cout << "Invalid month"; break;
+		}
+	}
+	 */
+
+	/* Task 2
+	int number;
+	cin >> number;
+	if (number >= 0 && number < 10)
+	{
+		switch (number)
+		{
+		case 0: cout << "1 ; zero"; break;
+		case 1: cout << "0 ; one"; break;
+
+		case 2: cout << "0 ; two"; break;
+
+		case 3: cout << "0 ; three"; break;
+
+		case 4: cout << "0 ; four"; break;
+
+		case 5: cout << "0 ; five"; break;
+
+		case 6: cout << "1 ; six"; break;
+
+		case 7: cout << "0 ; seven"; break;
+
+		case 8: cout << "2 ; eight"; break;
+
+		case 9: cout << "1 ; nine"; break;
+		}
+	}
+	else {
+		cout << "Not a digit";
+	}
+	*/
+	/* Task 3
+	int year;
+	cin >> year;
+	if ((year % 4 == 0 && year%100!=0) || year%400==0)
+	{
+		cout << "Visokosna";
+	}
+	else {
+		cout << "Ne e visokosna";
+	}
+	*/
+    /* Task 4
+	int a, b, c;
+	cin >> a >> b >> c;
+	if ((a + b) >= c && (b + c) >= a && (a + c) >= b)
+	{
+		cout << "Could exist";
+	}
+	else {
+		cout << "Couldn't exist";
+	}
+	*/
+bool truefalse=false;
+/* Task 5 a
+int p;
+cin >> p;
+if (p % 4 == 0 || p % 7 == 0)
+{
+	truefalse = true;
+	cout << truefalse;
+}
+else {
+	cout << truefalse;
+}
+*/
+/* Task 5 b
+int a, b, c;
+cin >> a >> b >> c;
+if ((b * b) - (4 * a * c) >= 0)
+{
+	truefalse = true;
+	cout << truefalse;
+}
+else {
+
+	cout << truefalse;
+}
+*/
+/*Task 5 c
+int a, b, r;
+cin >> a >> b >> r;
+if (abs(a) <= abs(r) && abs(b) <= abs(r + 1))
+{
+	truefalse = true;
+	cout << truefalse;
+}
+else {
+	cout << truefalse;
+}
+*/
+/* Task 5 d 
+int a, b, c, d, f;
+cin >> a >> b >> c >> d >> f;
+if (abs(a) >= abs(c) + f && abs(b) >= abs(d) + f)
+{
+	truefalse = true;
+	cout << truefalse;
+}
+else {
+	cout << truefalse;
+}
+*/
+/* Task 5 e
+int a,b;
+cin >> a >> b;
+if ((a >= -5 && a <= 0) && (b >= -5 && b <= 0))
+{
+	truefalse = true;
+	cout << truefalse;
+}
+else {
+	cout << truefalse;
+}
+*/
