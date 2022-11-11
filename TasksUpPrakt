@@ -485,3 +485,144 @@ Lesson 4.11.2022
 			cout << i;
 		}
 	}*/
+	Lesson 11.11.2022
+	
+
+#include <iostream>
+#include <cmath>
+#include <string>
+using namespace std;
+double max(double a, double b)
+{
+	if (a > b)
+	{
+		return a;
+	}
+	else if (b > a)
+	{
+		return b;
+	}
+	else {
+		return a;
+	}
+}
+void primeToHundred()
+{
+	int count = 0;
+	for (int i = 2; i < 100; i++)
+	{
+		for (int b = 1; b <= i; b++)
+		{
+			if (i % b == 0)
+			{
+				count++;
+			}
+		}
+		if (count <= 2)
+		{
+			cout << i << ",";
+		}
+		count = 0;
+	}
+}
+void primePalindrome(int n)
+{
+	
+	for (int i = 10; i <= n; i++)
+	{
+		int countprime = 0;
+		int countpal=0;
+		for (int b = 1; b <= i; b++)
+		{
+			if (i % b == 0)
+			{
+				countprime++;
+			}
+		}
+		if (countprime <= 2)
+		{
+			int remainder;
+			int reversed_number = i % 10;
+			int k = i;
+			while (k != 0) {
+				remainder = k % 10;
+				reversed_number = reversed_number * 10;
+				reversed_number += remainder;
+				k /= 10;
+			}
+			if (reversed_number == i)
+			{
+				cout << i;
+			}
+		}
+	}
+}
+bool powerOfTwo(int n)
+{
+	bool isIt = true;
+	if (n > 0)
+	{
+		while (n > 1)
+		{
+			if (n % 2 != 0)
+			{
+				isIt = false;
+			}
+			n /= 2;
+		}
+	}
+	else {
+		return false;
+	}
+	return isIt;
+}
+void powerOfSecond(int a,int b)
+{
+	bool isIt = true;
+	int count = 0;
+	while (b > 1)
+	{
+		if (b % a != 0)
+		{
+			isIt = false;
+		}
+		count++;
+		b /= a;
+	}
+	if (isIt == true)
+	{
+		cout << "Yes + power: " << count;
+	}
+	else {
+		cout << "No";
+	}
+}
+int main()
+{
+	/* Task 1
+	double a, b;
+	//cin >> a >> b;
+	cout << max(a, b);
+	*/
+	// Task 2 primeToHundred();
+	/* Task 3
+	int n;
+	cin >> n;
+	primePalindrome(n);
+	*/
+	/*
+	int n;
+	cin >> n;
+	if (powerOfTwo(n) == 1)
+	{
+		cout << "Yes";
+	}
+	else {
+		cout << "No";
+	}
+	*/
+	int a, b;
+	cin >> a >> b;
+	powerOfSecond(a, b);
+}
+
